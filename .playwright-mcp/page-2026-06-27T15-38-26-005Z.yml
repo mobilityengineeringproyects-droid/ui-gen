@@ -1,0 +1,105 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: Create a primary button component
+            - img [ref=e60]
+          - generic [ref=e63]:
+            - img [ref=e66]
+            - generic [ref=e71]:
+              - generic [ref=e74]: Creating PrimaryButton.jsx
+              - separator [ref=e75]
+              - paragraph [ref=e77]:
+                - text: Done. Created a
+                - code [ref=e115]: PrimaryButton
+                - text: component with hover, active, and disabled states using Tailwind CSS.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [ref=e32]
+          - tab "Code" [selected] [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - generic [ref=e81]:
+        - generic [ref=e88]:
+          - generic [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - img [ref=e92]
+            - generic [ref=e94]: components
+          - generic [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e103]: PrimaryButton.jsx
+        - separator [ref=e104]
+        - code [ref=e118]:
+          - generic [ref=e119]:
+            - generic [ref=e121]:
+              - generic [ref=e122]:
+                - generic [ref=e124] [cursor=pointer]: 
+                - generic [ref=e125]: "1"
+              - generic [ref=e127]: "2"
+              - generic [ref=e129]: "3"
+              - generic [ref=e131]: "4"
+              - generic [ref=e133]: "5"
+              - generic [ref=e135]: "6"
+              - generic [ref=e136]:
+                - generic [ref=e137] [cursor=pointer]: 
+                - generic [ref=e138]: "7"
+              - generic [ref=e139]:
+                - generic [ref=e140] [cursor=pointer]: 
+                - generic [ref=e141]: "8"
+              - generic [ref=e142]:
+                - generic [ref=e143] [cursor=pointer]: 
+                - generic [ref=e144]: "9"
+              - generic [ref=e146]: "10"
+              - generic [ref=e148]: "11"
+              - generic [ref=e150]: "12"
+              - generic [ref=e156]: "13"
+              - generic [ref=e157]:
+                - generic [ref=e158] [cursor=pointer]: 
+                - generic [ref=e159]: "14"
+              - generic [ref=e161]: "15"
+              - generic [ref=e163]: "16"
+              - generic [ref=e165]: "17"
+              - generic [ref=e167]: "18"
+              - generic [ref=e169]: "19"
+            - generic [ref=e235]:
+              - generic [ref=e237]: "export default function PrimaryButton({"
+              - generic [ref=e239]: children,
+              - generic [ref=e241]: onClick,
+              - generic [ref=e243]: disabled = false,
+              - generic [ref=e245]: className = '',
+              - generic [ref=e247]: ...props
+              - generic [ref=e249]: "}) {"
+              - generic [ref=e251]: return (
+              - generic [ref=e253]: <button
+              - generic [ref=e255]: "onClick={onClick}"
+              - generic [ref=e257]: "disabled={disabled}"
+              - generic [ref=e259]: "className={`px-6 py-2 bg-blue-600 text-white"
+              - generic [ref=e261]: font-semibold rounded-lg hover:bg-blue-700
+              - generic [ref=e263]: active:bg-blue-800 disabled:bg-gray-400
+              - generic [ref=e265]: disabled:cursor-not-allowed transition-colors $
+              - generic [ref=e267]: "{className}`}"
+              - generic [ref=e269]: "{...props}"
+              - generic [ref=e271]: ">"
+              - generic [ref=e273]: "{children}"
+              - generic [ref=e275]: </button>
+              - generic [ref=e277]: );
+              - generic [ref=e279]: "}"
+            - textbox "Editor content" [ref=e282]
+            - generic:
+              - generic:
+                - generic:
+                  - list
+  - alert [ref=e47]
+  - generic [ref=e283]:
+    - alert
+    - alert
